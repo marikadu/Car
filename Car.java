@@ -34,4 +34,8 @@ public class Car {
     	System.out.println(car1.brand);
     	System.out.println(car1.model);
     	System.out.println(car1.amountOfFuel);
+    	
+    	// added setter
+    	car1.setModel("Corsa");
+    	System.out.println(car1.getModel());
 }
